@@ -80,7 +80,7 @@
         p {
             margin-bottom: 1.5rem;
             font-size: 1.1rem;
-            color: var(--gray);
+            color: black;
         }
 
         .text-center {
@@ -88,7 +88,7 @@
         }
 
         .highlight {
-            color: var(--primary);
+            color: var(--light);
         }
 
         /* BUTTONS */
@@ -101,7 +101,7 @@
             color: white;
             font-weight: 700;
             padding: 20px 40px;
-            border-radius: var(--radius);
+            border-radius: 10px;
             border: none;
             cursor: pointer;
             font-size: 1.1rem;
@@ -133,7 +133,7 @@
 
         /* HEADER */
         header {
-            background: rgba(255, 255, 255, 0.95);
+            background: #fff;
             backdrop-filter: blur(10px);
             position: fixed;
             top: 0;
@@ -146,15 +146,20 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px;
+            padding: 10px;
         }
 
         .logo {
             font-size: 1.8rem;
             font-weight: 900;
             color: var(--dark);
+            align-items:left;
         }
-
+        .logo-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
         .logo span {
             background: var(--gradient);
             -webkit-background-clip: text;
@@ -582,8 +587,10 @@
     <!-- Header -->
     <header>
         <div class="container header-container">
-            <img src="image/Logoffsemfundo.png" alt="FF Climatização" style="height: 70px">
-            <div class="logo">FF <span>CLIMATIZAÇÃO</span></div>
+            <div class="logo-wrapper">
+                <img src="image/Logo-image.png" alt="FF Climatização" style="height: 70px">
+                <div class="logo">FF <span>CLIMATIZAÇÃO</span></div>
+            </div>
             <div class="header-cta">
                 <a href="https://api.whatsapp.com/send?phone=5516996176377&text=Olá, gostaria de solicitar um orçamento." target="_blank" class="btn btn-whatsapp">
                     <i class="fab fa-whatsapp"></i> Chamar no WhatsApp
@@ -597,7 +604,7 @@
         <div class="container hero-content fade-in">
             <h1>Seu ar parou?<br>Técnico em <span class="highlight">Jaboticabal</span> resolve hoje.</h1>
             <p class="hero-subtitle">Ar-condicionado, geladeira e máquina de lavar</p>
-            <p>Atendimento rápido, técnico especializado e orçamento sem burocracia. Chame agora e resolva em até 24h.</p>
+            <p>Atendimento rápido, técnico especializado e orçamento sem burocracia. Chame agora e resolva seu problema, pagamento facilitado no cartão 💳.</p>
             <div class="hero-cta">
                 <a href="https://api.whatsapp.com/send?phone=5516996176377&text=Olá, gostaria de solicitar um orçamento." target="_blank" class="btn btn-lg hero-btn">
                     <i class="fab fa-whatsapp"></i> Solicitar orçamento agora
@@ -682,7 +689,7 @@
                         <i class="fas fa-home"></i>
                     </div>
                     <h3>Atendimento em Domicílio</h3>
-                    <p>Você não precisa se deslocar. Eu vou até você em Jaboticabal e região.</p>
+                    <p>Você não precisa se deslocar. Eu vou até você em qualquer lugar de Jaboticabal.</p>
                 </div>
                 
                 <div class="trust-card fade-in delay-2">
@@ -690,7 +697,7 @@
                         <i class="fas fa-comment-dollar"></i>
                     </div>
                     <h3>Orçamento Direto</h3>
-                    <p>Sem burocracia. Fale direto comigo pelo WhatsApp e receba um orçamento claro.</p>
+                    <p>Sem burocracia. Fale direto comigo pelo WhatsApp e receba um orçamento claro ou visita técnica.</p>
                 </div>
             </div>
         </div>
@@ -716,7 +723,7 @@
                 <div class="process-step fade-in delay-3">
                     <div class="step-number">3</div>
                     <h3>Serviço Executado</h3>
-                    <p>Realizo o conserto ou manutenção no local, com garantia e qualidade.</p>
+                    <p>Realizo o conserto ou manutenção no local se for viável, com garantia e qualidade.</p>
                 </div>
             </div>
         </div>
@@ -726,7 +733,7 @@
     <section class="final-cta">
         <div class="container">
             <h2 class="fade-in">Precisa resolver <span class="highlight">hoje</span>?</h2>
-            <p class="fade-in delay-1">Não sofra com calor, comida estragando ou roupa acumulando. Chame agora e tenha seu equipamento funcionando ainda hoje.</p>
+            <p class="fade-in delay-1">Não sofra com calor, comida estragando ou roupa acumulando. Chame agora e tenha seu equipamento funcionando, sem mais dor de cabeça.</p>
             <a href="https://api.whatsapp.com/send?phone=5516996176377&text=Olá, gostaria de solicitar um orçamento." target="_blank" class="btn btn-lg fade-in delay-2">
                 <i class="fab fa-whatsapp"></i> Falar agora com o técnico
             </a>
